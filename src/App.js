@@ -1,16 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Home from "./pages/Home";
+import Header from "./pages/Header";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        Arumosam
-      </header>
-      <body>Arumosam body</body>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Header/>
+            <body>
+                <Home/>
+            </body>
+
+        </div>
+    );
 }
 
 export default App;
