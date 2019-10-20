@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         Arumosam
       </header>
-      <body>Arumosam</body>
+      <body>Arumosam body</body>
     </div>
   );
 }
